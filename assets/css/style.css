@@ -402,7 +402,7 @@
         display: block;
         z-index: 10;
     }
-
+    
 }
 
 @media (max-width:576px) {
@@ -442,6 +442,7 @@
     .pt-40 {
         padding-top: 20;
     }
+   
 }
 
 
