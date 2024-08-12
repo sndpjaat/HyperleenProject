@@ -1,4 +1,3 @@
-
 @import url(./root.css);
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -8,10 +7,11 @@
     list-style: none !important;
     text-decoration: none !important;
 }
+
 @font-face {
     /* 800 / */
     font-family: "Gilroy heavy,sans-serif";
-   src: url("../image/fonts/Gilroy-Heavy.ttf");
+    src: url("../image/fonts/Gilroy-Heavy.ttf");
     word-wrap: break-word;
 }
 
@@ -168,6 +168,11 @@
     border-radius: 100px;
 
 }
+
+.no-pointer {
+    cursor: default !important;
+}
+
 .underline::after {
     content: "";
     position: absolute;
@@ -222,20 +227,18 @@
     padding-top: 40px;
 }
 
-.btn-2 {
-    color: black !important;
-    padding: 14px 24px;
-    border-radius: 100px;
-}
+
 
 /* Add Label of an Image */
 
 .pt-79 {
     padding-top: 79px;
 }
-.pb-16{
+
+.pb-16 {
     padding-bottom: 16px;
 }
+
 .lable_Box {
     max-width: 452px;
     border-radius: 16px;
@@ -243,14 +246,27 @@
     border: 0.5px solid #084CAF;
     padding: 20px;
 }
+
 .custom-input {
-    width: 100%;
-    height: 50px;
+    width: 422px;
+    height: 81px;
     padding: 10px;
     border: 0.5px solid #4E4E4E;
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
+
+.custom-input:focus {
+    border-color: #4E4E4E;
+    outline: none;
+}
+.all_cars{
+    max-height: 483px;
+    width: 100%;
+    max-width: 502px;
+   
+}
+
 .btn-1 {
     border-radius: 100px;
     box-shadow: 4px 4px 20px 0px #084CAF4D;
@@ -272,11 +288,18 @@
 .btn-2:hover {
     background-color: #084CAF !important;
     color: white !important;
+    border: none;
 
 }
 
+.project-img {
+    box-shadow: -7.88px 7.88px 35.83px -18.63px #6F69F21F;
+    box-shadow: 7.88px -8.24px 35.83px -18.63px #084CAF14;
+    background-color: #FFFFFF !important;
+}
 
 .btn-2 {
+    border: 1px solid black;
     color: black !important;
     padding: 14px 24px;
     border-radius: 100px;
@@ -284,19 +307,24 @@
     min-width: 150px;
     transition: all linear 300ms;
 }
-.max-w-506{
+
+.max-w-506 {
     max-width: 506px;
 }
+
 .mt-36 {
     margin-top: 36px;
 }
-.max-w-452{
+
+.max-w-452 {
     max-width: 452px;
 }
-.max-w-478{
+
+.max-w-478 {
     max-width: 478px;
 }
-.lable_Img{
+
+.lable_Img {
     top: -88%;
     right: 0;
 }
@@ -305,14 +333,17 @@
     top: 90px;
     left: 20px;
 }
+
 .header_Ellipse {
     top: 90px;
     right: 30px;
 }
+
 .insure_Vector {
-    top:341px;
+    top: 341px;
     left: -20px;
 }
+
 /* <!-- Segmentation and Verification --> */
 .pt-160 {
     padding-top: 50px;
@@ -321,6 +352,7 @@
 .pb-40 {
     padding-bottom: 40px;
 }
+
 .pt-110 {
     padding-top: 110px;
 }
@@ -328,16 +360,20 @@
 .pb-110 {
     padding-bottom: 110px;
 }
+
 .mt-48 {
     margin-top: 48px;
 }
-.max-w-540{
+
+.max-w-540 {
     max-width: 540px;
 }
-.max-w-740{
+
+.max-w-740 {
     max-width: 740px;
 }
-.min_vh_100{
+
+.min_vh_100 {
     min-height: 100vh;
 }
 
@@ -345,25 +381,30 @@
     .pb-110 {
         padding-bottom: 60px;
     }
+
     .pt-110 {
         padding-top: 30px;
     }
+
     .pt-160 {
         padding-top: 160px;
     }
-  
+
 }
+
 @media (min-width:768px) {
     .pt-160 {
         padding-top: 160px;
-    } 
+    }
 }
-@media  (min-width:1200px) {
-    .min_h_xl{
-     min-height: 715px !important;
-    } 
-     
- }
+
+@media (min-width:1200px) {
+    .min_h_xl {
+        min-height: 715px !important;
+    }
+
+}
+
 @media (max-width:992px) {
     .menu {
         position: absolute;
@@ -402,7 +443,7 @@
         display: block;
         z-index: 10;
     }
-    
+
 }
 
 @media (max-width:576px) {
@@ -421,13 +462,15 @@
     .pt-71 {
         padding-top: 40px;
     }
+
     .pb-71 {
         padding-bottom: 30px;
     }
 
-    .pt-79{
+    .pt-79 {
         padding-top: 20px;
     }
+
     .pt-201 {
         padding-top: 150px;
     }
@@ -439,14 +482,14 @@
     .pb-40 {
         padding-bottom: 15px;
     }
+
     .pt-40 {
         padding-top: 20;
     }
-   
+
 }
 
 
-.pb-160{
+.pb-160 {
     padding-bottom: 160px;
 }
-
