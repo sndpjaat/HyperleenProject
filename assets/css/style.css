@@ -315,11 +315,9 @@
 }
 /* <!-- Segmentation and Verification --> */
 .pt-160 {
-    padding-top: 30px;
+    padding-top: 50px;
 }
-.pt-160 {
-    padding-top: 30px;
-}
+
 .pb-40 {
     padding-bottom: 40px;
 }
@@ -353,8 +351,13 @@
     .pt-160 {
         padding-top: 160px;
     }
+  
 }
-
+@media (min-width:768px) {
+    .pt-160 {
+        padding-top: 160px;
+    } 
+}
 @media  (min-width:1200px) {
     .min_h_xl{
      min-height: 715px !important;
@@ -414,9 +417,7 @@
         padding-top: 10px;
     }
 
-    .pt-160 {
-        padding-top: 70px;
-    }
+    
 
     .pt-71 {
         padding-top: 40px;
