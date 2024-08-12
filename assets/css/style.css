@@ -405,9 +405,6 @@
 
 }
 
-
-
-
 @media (max-width:576px) {
     .pb-110 {
         padding-bottom: 50px;
@@ -417,7 +414,9 @@
         padding-top: 10px;
     }
 
-    
+    .gap-44 {
+        gap: 15px;
+    }
 
     .pt-71 {
         padding-top: 40px;
@@ -450,9 +449,3 @@
     padding-bottom: 160px;
 }
 
-/* @media (max-width:768px) {
-    .pb-110 {
-        padding-bottom: 20px;
-    }
-
-} */
