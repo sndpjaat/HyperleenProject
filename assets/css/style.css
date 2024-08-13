@@ -159,7 +159,9 @@
 .gap-24 {
     gap: 24px;
 }
-
+.max-w-1140{
+    max-width: 1140px;
+}
 .common-btn {
     box-shadow: 0px 4px 16px 0px #084CAF1F;
     background-color: #0A02EC14;
@@ -245,17 +247,21 @@
     background: #FFFFFF;
     border: 0.5px solid #084CAF;
     padding: 20px;
+    width: 100%;
 }
 
 .custom-input {
-    width: 422px;
-    height: 81px;
+    max-width: 422px !important;
+    min-height: 81px;
     padding: 10px;
     border: 0.5px solid #4E4E4E;
     border-radius: 12px;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    width: 100%;
 }
-
+.max-w-462{
+    max-width: 462px;
+}
 .custom-input:focus {
     border-color: #4E4E4E;
     outline: none;
@@ -283,13 +289,14 @@
 .btn-1:hover {
     background-color: white;
     color: #084CAF !important;
+    box-shadow: 0px 4px 16px 0px #084CAF !important;
 }
 
 .btn-2:hover {
     background-color: #084CAF !important;
     color: white !important;
     border: none;
-
+    box-shadow: 0px 4px 16px 0px #084CAF!important;
 }
 
 .project-img {
@@ -297,7 +304,22 @@
     box-shadow: 7.88px -8.24px 35.83px -18.63px #084CAF14;
     background-color: #FFFFFF !important;
 }
-
+.try_Button{
+    border: 1px solid black;
+    color: black !important;
+    padding: 14px 24px;
+    border-radius: 100px;
+    min-height: 55px;
+    min-width: 150px;
+    transition: all linear 300ms; 
+    z-index: 10;
+}
+.try_Button:hover {
+    background-color: #084CAF !important;
+    color: white !important;
+    border: none;
+    box-shadow: 0px 4px 16px 0px #084CAF!important;
+}
 .btn-2 {
     border: 1px solid black;
     color: black !important;
@@ -389,7 +411,7 @@
     .pt-160 {
         padding-top: 160px;
     }
-
+    
 }
 
 @media (min-width:768px) {
@@ -405,7 +427,7 @@
 
 }
 
-@media (max-width:992px) {
+@media (max-width: 992px) {
     .menu {
         position: absolute;
         width: 100%;
@@ -414,11 +436,10 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-color: rgb(250, 250, 250);
+        background-color: rgb(252, 250, 250) !important;
         top: 0;
         right: -100%;
         transition: all 300ms linear;
-
     }
 
     .active {
@@ -442,11 +463,16 @@
         background-color: #084CAF;
         display: block;
         z-index: 10;
+        transition: all 300ms linear;
     }
 
 }
 
 @media (max-width:576px) {
+    .try_Button{
+        z-index: -1;
+        position: relative;
+    }
     .pb-110 {
         padding-bottom: 50px;
     }
@@ -486,6 +512,11 @@
     .pt-40 {
         padding-top: 20;
     }
+    .lable_Box {
+        max-width: 360px;
+       
+    }
+  
 
 }
 
