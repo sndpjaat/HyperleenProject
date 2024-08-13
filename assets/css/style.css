@@ -77,8 +77,8 @@
     max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .font-poppins {
@@ -418,7 +418,7 @@
 
 /* Transformations for the cross (X) state */
 .menuicon.active .bar:nth-child(1) {
-    transform: translateY(10px) rotate(45deg);
+    transform: translateY(9px) rotate(45deg);
 }
 
 .menuicon.active .bar:nth-child(2) {
@@ -426,7 +426,7 @@
 }
 
 .menuicon.active .bar:nth-child(3) {
-    transform: translateY(-10px) rotate(-45deg);
+    transform: translateY(-9.5px) rotate(-45deg);
 }
 
 
@@ -499,6 +499,7 @@
 
 }
 
+
 @media (max-width:576px) {
     .try_Button{
         z-index: -1;
@@ -514,6 +515,9 @@
 
     .gap-44 {
         gap: 15px;
+    }
+    .gap-24 {
+        gap: 18px;
     }
 
     .pt-71 {

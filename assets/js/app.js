@@ -4,6 +4,7 @@ const menu = document.querySelector('.menu');
 
 menuicon.addEventListener('click', () => {
     menu.classList.toggle('active');
+    menuicon.classList.toggle('active');
     if (menu.classList.contains('active')) {
         body.style.overflow = 'hidden';
     } else {
@@ -11,7 +12,12 @@ menuicon.addEventListener('click', () => {
     }
 });
 
-document.querySelector('.menuicon').addEventListener('click', function() {
-    this.classList.toggle('active');
-});
+let links = document.querySelectorAll(".navlink");
 
+links.forEach(link => {
+    link.addEventListener("click", () => {
+        menu.classList.remove('active'); 
+        menuicon.classList.remove('active');
+        body.style.overflow = 'auto'; 
+    });
+});
