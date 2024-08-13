@@ -48,7 +48,9 @@
     src: url("../font/Gilroy-Light.ttf");
     word-wrap: break-word;
 }
-
+.container_padding{
+    padding: 0 20px;
+}
 .font_gilroy_heavy {
     font-family: "Gilroy heavy,sans-serif";
 }
@@ -73,13 +75,6 @@
     font-family: "Gilroy semibold, sans-serif";
 }
 
-.container {
-    max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-}
 
 .font-poppins {
     font-family: "Poppins", sans-serif;
@@ -159,9 +154,7 @@
 .gap-24 {
     gap: 24px;
 }
-.max-w-1140{
-    max-width: 1140px;
-}
+
 .common-btn {
     box-shadow: 0px 4px 16px 0px #084CAF1F;
     background-color: #0A02EC14;
@@ -242,7 +235,7 @@
 }
 
 .lable_Box {
-    max-width: 452px;
+    max-width: 462px;
     border-radius: 16px;
     background: #FFFFFF;
     border: 0.5px solid #084CAF;
@@ -259,8 +252,8 @@
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     width: 100%;
 }
-.max-w-462{
-    max-width: 462px;
+.project_image{
+    max-width: 600px;
 }
 .custom-input:focus {
     border-color: #4E4E4E;
@@ -429,6 +422,9 @@
     transform: translateY(-9.5px) rotate(-45deg);
 }
 
+.pb-160 {
+    padding-bottom: 160px;
+}
 
 @media (min-width:575.9px) {
     .pb-110 {
@@ -450,7 +446,11 @@
         padding-top: 160px;
     }
 }
-
+@media (min-width:1400px) and (max-width:1599.98px) {
+    .max-w-1180{
+        max-width: 1180px !important;
+    }
+}
 @media (min-width:1200px) {
     .min_h_xl {
         min-height: 715px !important;
@@ -555,7 +555,3 @@
 
 }
 
-
-.pb-160 {
-    padding-bottom: 160px;
-}
