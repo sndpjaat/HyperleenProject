@@ -107,40 +107,31 @@
     padding: 14px 24px;
     border: 1px solid #084CAF;
 }
-
 .bottom-border {
     border-bottom: 0.1px solid #4E4E4E;
 }
-
 .z-10 {
     z-index: 10;
 }
-
 .cursor-pointer {
     cursor: pointer;
 }
-
 .pt-24 {
     padding-top: 24px;
 }
-
 .gap-24 {
     gap: 24px;
 }
-
 .common-btn {
     box-shadow: 0px 4px 16px 0px #084CAF1F;
     background-color: #0A02EC14;
     border: 0.5px solid #084CAF;
     padding: 10px 24px;
     border-radius: 100px;
-
 }
-
 .no-pointer {
     cursor: default !important;
 }
-
 .underline::after {
     content: "";
     position: absolute;
@@ -152,61 +143,44 @@
     background-color: var(#084CAF);
     transition: all 300ms linear;
 }
-
 .underline:hover::after {
     width: 100%;
 }
-
 .pt-71 {
     padding-top: 71px;
 }
-
 .pt-44 {
     padding-top: 44px;
 }
-
 .max-w-757 {
     max-width: 757px;
 }
-
 .fs-80 {
     font-size: 80px;
 }
-
 .max-w-634 {
     max-width: 634px;
 }
-
 .pt-20 {
     padding-top: 20px;
 }
-
 .btn-1 {
     border-radius: 100px;
     box-shadow: 4px 4px 20px 0px #084CAF4D;
     border: 1px solid #084CAF;
     padding: 14px 24px;
     background: #084CAF;
-
-
 }
-
 .pt-40 {
     padding-top: 40px;
 }
-
-
-
 /* Add Label of an Image */
-
 .pt-79 {
     padding-top: 79px;
 }
-
 .pb-16 {
     padding-bottom: 16px;
 }
-
 .lable_Box {
     max-width: 462px;
     border-radius: 16px;
@@ -215,7 +189,6 @@
     padding: 20px;
     width: 100%;
 }
-
 .custom-input {
     max-width: 422px !important;
     min-height: 81px;
@@ -236,9 +209,7 @@
     max-height: 483px;
     width: 100%;
     max-width: 502px;
-   
 }
-
 .btn-1 {
     border-radius: 100px;
     box-shadow: 4px 4px 20px 0px #084CAF4D;
@@ -248,23 +219,19 @@
     background: #084CAF;
     min-height: 55px;
     min-width: 150px;
-    /* color: black; */
     transition: all linear 300ms;
 }
-
 .btn-1:hover {
     background-color: white;
     color: #084CAF !important;
     box-shadow: 0px 4px 16px 0px #084CAF !important;
 }
-
 .btn-2:hover {
     background-color: #084CAF !important;
     color: white !important;
     border: none;
     box-shadow: 0px 4px 16px 0px #084CAF!important;
 }
-
 .project-img {
     box-shadow: -7.88px 7.88px 35.83px -18.63px #6F69F21F;
     box-shadow: 7.88px -8.24px 35.83px -18.63px #084CAF14;
@@ -295,76 +262,59 @@
     min-width: 150px;
     transition: all linear 300ms;
 }
-
 .max-w-506 {
     max-width: 506px;
 }
-
 .mt-36 {
     margin-top: 36px;
 }
-
 .max-w-452 {
     max-width: 452px;
 }
-
 .max-w-478 {
     max-width: 478px;
 }
-
 .lable_Img {
     top: -88%;
     right: 0;
 }
-
 .data_Vector {
     top: 90px;
     left: 20px;
 }
-
 .header_Ellipse {
     top: 90px;
     right: 30px;
 }
-
 .insure_Vector {
     top: 341px;
     left: -20px;
 }
-
 /* <!-- Segmentation and Verification --> */
 .pt-160 {
     padding-top: 50px;
 }
-
 .pb-40 {
     padding-bottom: 40px;
 }
-
 .pt-110 {
     padding-top: 110px;
 }
-
 .pb-110 {
     padding-bottom: 110px;
 }
-
 .mt-48 {
     margin-top: 48px;
 }
-
 .max-w-540 {
     max-width: 540px;
 }
-
 .max-w-740 {
     max-width: 740px;
 }
-
 .min_vh_100 {
     min-height: 100vh;
 }
-
 /* Basic styles for the menu icon */
 .menuicon {
     width: 30px;
@@ -374,31 +324,25 @@
     justify-content: space-between;
     align-items: center;
 }
-
 .bar {
     width: 100%;
     height: 4px;
     background-color: #000;
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
-
 /* Transformations for the cross (X) state */
 .menuicon.active .bar:nth-child(1) {
     transform: translateY(9px) rotate(45deg);
 }
-
 .menuicon.active .bar:nth-child(2) {
     opacity: 0;
 }
-
 .menuicon.active .bar:nth-child(3) {
     transform: translateY(-9.5px) rotate(-45deg);
 }
-
 .pb-160 {
     padding-bottom: 160px;
 }
-
 @media (min-width:575.9px) {
     .pb-110 {
         padding-bottom: 60px;
@@ -413,7 +357,6 @@
     }
     
 }
-
 @media (min-width:768px) {
     .pt-160 {
         padding-top: 160px;
@@ -430,7 +373,6 @@
     }
 
 }
-
 @media (max-width: 992px) {
     .menu {
         position: absolute;
@@ -475,8 +417,6 @@
     }
 
 }
-
-
 @media (max-width:576px) {
     .try_Button{
         z-index: -1;
@@ -531,4 +471,3 @@
   
 
 }
-

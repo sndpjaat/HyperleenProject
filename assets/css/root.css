@@ -1,6 +1,5 @@
 :root {
     /* -----------------------------------font-size--------------------------------------   */
-
     --fs-sm: 16px;
     --fs-md: 18px;
     --fs-lg: 20px;
@@ -8,8 +7,6 @@
     --fs-5xl: 32px;
     --fs-3xl: 30px;
     --fs-4xl: 26px;
-
-
     /* line-height */
     --lh-24: 24px;
     --lh-27: 27px;
@@ -19,10 +16,6 @@
     --lh-43: 43px;
     --lh-57: 40px;
     --lh-80: 30px;
-  
-
-
-
     /* FONT-WEIGHT */
     --fw-300: 300;
     --fw-400: 400;
@@ -31,13 +24,11 @@
     --fw-700: 700;
     --fw-800: 800;
     --fw-900: 900;
-
     /* colors */
     --text_Gray: #4E4E4E;
     --text_Black: #000000;
     --text_White: #ffff;
     --text_Blue: #084CAF;
-    
 }
 .bg-blue{
     background-color: var(--blue);
@@ -81,9 +72,6 @@
 .fs-4xl {
     font-size: var(--fs-4xl);
 }
-
-
-
 .lh-24 {
     line-height: var(--lh-24);
 }
@@ -111,32 +99,24 @@
 .lh-24 {
     line-height: var(--lh-24);
 }
-
-
 .fw-400 {
     font-weight: var(--fw-400);
 }
-
 .fw-500 {
     font-weight: var(--fw-500);
 }
-
 .fw-600 {
     font-weight: var(--fw-600);
 }
-
 .fw-700 {
     font-weight: var(--fw-700);
 }
-
 .fw-800 {
     font-weight: var(--fw-800);
 }
-
 .fw-900 {
     font-weight: var(--fw-900);
 }
-
 .ff_Poppins {
     font-family: "Poppins", sans-serif;
 }
@@ -149,8 +129,6 @@
         --fs-5xl: 32px;
         --fs-3xl: 48px;
         --fs-4xl: 80px;
-    
-    
         /* line-height */
         --lh-24: 24px;
         --lh-27: 27px;
@@ -160,7 +138,6 @@
         --lh-43: 43px;
         --lh-57: 57px;
         --lh-80: 80px;
-
         /* FONT-WEIGHT */
         --fw-300: 300;
         --fw-400: 400;
