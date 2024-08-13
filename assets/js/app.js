@@ -10,3 +10,8 @@ menuicon.addEventListener('click', () => {
         body.style.overflow = 'auto';
     }
 });
+
+document.querySelector('.menuicon').addEventListener('click', function() {
+    this.classList.toggle('active');
+});
+
