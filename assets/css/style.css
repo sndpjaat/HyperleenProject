@@ -49,7 +49,7 @@
     word-wrap: break-word;
 }
 .container_padding{
-    padding: 0 20px;
+    padding: 0 20px !important;
 }
 .font_gilroy_heavy {
     font-family: "Gilroy heavy,sans-serif";
