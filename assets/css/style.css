@@ -343,15 +343,24 @@
 .pb-160 {
     padding-bottom: 160px;
 }
+.flex_column{
+    flex-direction: column;
+}
+@media (min-width:465px) {
+    .flex_sm_wrap{
+        flex-wrap: wrap !important;
+    }
+    .flex_sm_row{
+        flex-direction: row !important;
+    }
+}
 @media (min-width:575.9px) {
     .pb-110 {
         padding-bottom: 60px;
     }
-
     .pt-110 {
         padding-top: 30px;
     }
-
     .pt-160 {
         padding-top: 160px;
     }
@@ -371,7 +380,6 @@
     .min_h_xl {
         min-height: 715px !important;
     }
-
 }
 @media (max-width: 992px) {
     .menu {
@@ -387,22 +395,18 @@
         right: -100%;
         transition: all 300ms linear;
     }
-
     .active {
         right: 0;
     }
-
     .menu ul {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
     .two-btn {
         display: flex;
         flex-direction: column;
     }
-
     .bar {
         height: 2px;
         width: 25px;
@@ -415,7 +419,6 @@
         z-index: -1;
         position: relative;
     }
-
 }
 @media (max-width:576px) {
     .try_Button{
@@ -425,49 +428,37 @@
     .pb-110 {
         padding-bottom: 50px;
     }
-
     .pt-110 {
         padding-top: 10px;
     }
-
     .gap-44 {
         gap: 15px !important;
     }
     .gap-24 {
         gap: 18px;
     }
-
     .pt-71 {
         padding-top: 40px;
     }
-
     .pb-71 {
         padding-bottom: 30px;
     }
-
     .pt-79 {
         padding-top: 20px;
     }
-
     .pt-201 {
         padding-top: 150px;
     }
-
     .mt-48 {
         margin-top: 20px;
     }
-
     .pb-40 {
         padding-bottom: 15px;
     }
-
     .pt-40 {
         padding-top: 20;
     }
     .lable_Box {
-        max-width: 360px;
-       
+        max-width: 360px; 
     }
-  
-
 }
