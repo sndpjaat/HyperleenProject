@@ -98,14 +98,33 @@
 }
 .sign-btn {
     border: 1px solid #000000;
+    width: 116px;
+    height: 55px;
     border-radius: 100px;
     padding: 14px 24px;
+    background: white;
+    transition: all linear 300ms;
+
+}
+.sign-btn:hover {
+    background-color: #084CAF !important;
+    color: white !important;
+    border: none;
+    box-shadow: 0px 4px 16px 0px #084CAF!important;
 }
 .contact-btn {
-    background-color: #084CAF;
-    border-radius: 100px;
+    width: 148px;
+    height: 55px;
+    color: white !important;
+    background-color: #084CAF !important;
+    border-radius: 100px !important;
     padding: 14px 24px;
-    border: 1px solid #084CAF;
+    border: 1px solid #084CAF !important;
+}
+.contact-btn:hover{
+    background-color: white !important;
+    color:#084CAF !important;
+    box-shadow: 0px 4px 16px 0px #084CAF !important;
 }
 .bottom-border {
     border-bottom: 0.1px solid #4E4E4E;
@@ -122,7 +141,7 @@
 .gap-24 {
     gap: 24px;
 }
-.common-btn {
+.common_Btn{
     box-shadow: 0px 4px 16px 0px #084CAF1F;
     background-color: #0A02EC14;
     border: 0.5px solid #084CAF;
@@ -152,7 +171,7 @@
 .pt-44 {
     padding-top: 44px;
 }
-.max-w-757 {
+.max_w_757 {
     max-width: 757px;
 }
 .fs-80 {
@@ -164,12 +183,22 @@
 .pt-20 {
     padding-top: 20px;
 }
-.btn-1 {
-    border-radius: 100px;
-    box-shadow: 4px 4px 20px 0px #084CAF4D;
+.ok_Button {
+    width: 203px; 
+    height: 55px;
+    background-color: #1E4A9E;
+    border-radius: 100px; 
+    border: none;
+    color: white;
+    text-align: center;
+    transition: all linear 300ms; 
+}
+.ok_Button:hover{
+    background-color: white;
+    color: #084CAF !important;
+    box-shadow: 0px 4px 16px 0px #084CAF !important;
     border: 1px solid #084CAF;
-    padding: 14px 24px;
-    background: #084CAF;
+ 
 }
 .pt-40 {
     padding-top: 40px;
@@ -200,6 +229,7 @@
 }
 .project_image{
     max-width: 600px;
+    width: 100%;
 }
 .custom-input:focus {
     border-color: #4E4E4E;
@@ -220,6 +250,7 @@
     min-height: 55px;
     min-width: 150px;
     transition: all linear 300ms;
+    border-radius: 100px;
 }
 .btn-1:hover {
     background-color: white;
@@ -261,6 +292,23 @@
     min-height: 55px;
     min-width: 150px;
     transition: all linear 300ms;
+}
+.Cancel_Button{
+    width: 203px;
+    height: 55px;
+    border: 1px solid black;
+    color: black !important;
+    padding: 14px 24px;
+    border-radius: 100px;
+    min-height: 55px;
+    min-width: 150px;
+    transition: all linear 300ms; 
+}
+.Cancel_Button:hover{
+    background-color: #084CAF !important;
+    color: white !important;
+    border: none;
+    box-shadow: 0px 4px 16px 0px #084CAF!important;
 }
 .max-w-506 {
     max-width: 506px;
