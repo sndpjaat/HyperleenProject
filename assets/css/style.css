@@ -68,17 +68,21 @@
 .gap-20 {
     gap: 20px;
 }
+.z_1{
+    z-index: -1;
+}
 .navlink:hover {
     color: #084CAF;
 }
-.navlink::after {
+.navlink.active::after {
+    content: '';
     position: absolute;
+    display: inline-block;
     bottom: 0px;
     left: 0px;
     height: 1px;
-    width: 100px;
+    width: 100%;
     background-color: #084CAF;
-    display: block;
 }
 .duration-300 {
     transition: all 300ms linear;
@@ -119,12 +123,13 @@
     background-color: #084CAF !important;
     border-radius: 100px !important;
     padding: 14px 24px;
-    border: 1px solid #084CAF !important;
+    
 }
 .contact-btn:hover{
     background-color: white !important;
     color:#084CAF !important;
     box-shadow: 0px 4px 16px 0px #084CAF !important;
+    border: 1px solid #084CAF !important;
 }
 .bottom-border {
     border-bottom: 0.1px solid #4E4E4E;
@@ -141,6 +146,7 @@
 .gap-24 {
     gap: 24px;
 }
+
 .common_Btn{
     box-shadow: 0px 4px 16px 0px #084CAF1F;
     background-color: #0A02EC14;
@@ -151,20 +157,7 @@
 .no-pointer {
     cursor: default !important;
 }
-.underline::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -4px;
-    width: 0;
-    height: 1.5px;
-    border-radius: 2px;
-    background-color: var(#084CAF);
-    transition: all 300ms linear;
-}
-.underline:hover::after {
-    width: 100%;
-}
+
 .pt-71 {
     padding-top: 71px;
 }
@@ -228,7 +221,7 @@
     width: 100%;
 }
 .project_image{
-    max-width: 600px;
+    max-width: 670px;
     width: 100%;
 }
 .custom-input:focus {
@@ -386,7 +379,7 @@
     opacity: 0;
 }
 .menuicon.active .bar:nth-child(3) {
-    transform: translateY(-9.5px) rotate(-45deg);
+    transform: translateY(-11.5px) rotate(-45deg);
 }
 .pb-160 {
     padding-bottom: 160px;
@@ -442,6 +435,7 @@
         top: 0;
         right: -100%;
         transition: all 300ms linear;
+        z-index: 10;
     }
     .active {
         right: 0;
@@ -467,6 +461,8 @@
         z-index: -1;
         position: relative;
     }
+   
+    
 }
 @media (max-width:576px) {
     .try_Button{
